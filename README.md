@@ -1,3 +1,2 @@
 # shellScripting
-use python3 to run 
-To run the script $ python3 create_cmd.py
+use python3 to run  the script $ python3 create_cmd.py
