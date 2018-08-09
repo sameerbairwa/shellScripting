@@ -12,7 +12,7 @@ import pwd
 import smtplib
 from email.mime.text import MIMEText
 
-# contacts={"aman":"aman.parmar17@gmail.com","anjali":"anjuanjisharma08@gmail.com","devansh":"devanshalok@gmail.com","rani":"ranikhaneja@gmail.com"}
+# contacts={"name":"Email"}
 
 """file discriptors::: this is the number returned by the open file which is saved somewhere in the kernel and uniquely identifies the
 OPENED file..."""
@@ -194,7 +194,6 @@ class MyPrompt(Cmd):
         """print the members holding the copyright of the shell and other information"""
         print("SARA Shell\n")
         print("Copyright 2018- SARA Team \n All rights reserved")
-        print("Team members: Aman Parmar\n\t\t Raghav Gupta\n\t\tAnjali Sharma\n\t\tSameer kumar bairwa\n")
         print("SARA Shell created using Python\n copyrights")
         print(sys.copyright)
         val = "copyright " + args
